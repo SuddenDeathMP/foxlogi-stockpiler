@@ -5,7 +5,7 @@ A lightweight, cross-platform desktop application that monitors Foxhole game's U
 
 ## Overview
 
-UE Save Sync watches one or more Unreal Engine `.sav` files for modifications. Whenever a save file is updated (its edit timestamp changes), the application automatically:
+Foxlogi Stockpiler watches one or more Unreal Engine `.sav` files for modifications. Whenever a save file is updated (its edit timestamp changes), the application automatically:
 
 1. Detects the change
 2. Parses the binary `.sav`
@@ -72,8 +72,8 @@ Download the latest release from the [Releases page](#):
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ue-save-sync.git
-cd ue-save-sync
+git clone https://github.com/yourusername/foxlogi-stockpiler.git
+cd foxlogi-stockpiler
 
 # Install dependencies
 npm install
@@ -97,17 +97,19 @@ The compiled installer will appear in `src-tauri/target/release/bundle/`.
 
 ### Configuration
 
-The app stores its configuration locally:
+The app stores its configuration locally, under the app identifier
+(`com.foxlogi.stockpiler`):
 
-- **Windows:** `%APPDATA%\ue-save-sync\config.json`
-- **macOS:** `~/Library/Application Support/ue-save-sync/config.json`
+- **Windows:** `%APPDATA%\com.foxlogi.stockpiler\config.json`
+- **macOS:** `~/Library/Application Support/com.foxlogi.stockpiler/config.json`
+- **Linux:** `~/.local/share/com.foxlogi.stockpiler/config.json`
 
 ## API Contract
 
 Data is sent to your server as a POST request:
 
 ```http
-POST /api/api/stockpile/bulk-update/ HTTP/1.1
+POST /api/stockpile/bulk-update/ HTTP/1.1
 Host: foxlogi.com
 Content-Type: application/json
 Authorization: Bearer YOUR_API_KEY
@@ -121,7 +123,24 @@ Authorization: Bearer YOUR_API_KEY
 }
 ```
 
-The exact server endpoint URL is configured at build time (or via the settings file).
+### Server endpoint
+
+The base URL is chosen at **build time** based on the build profile:
+
+| Build | Default base URL |
+|-------|------------------|
+| Development (`npm run tauri dev`, any debug `cargo` build) | `http://127.0.0.1:3000` |
+| Release (`npm run tauri build`) | `https://foxlogi.com` |
+
+The full endpoint is the base URL plus `/api/stockpile/bulk-update/`.
+
+> **Note:** under `npm run tauri dev`, syncs POST to `http://127.0.0.1:3000`, so
+> they will fail unless you have a local server listening on port 3000. This is
+> expected in development — use a release build (or run a local mock server) to
+> exercise the real flow.
+
+You can override the base URL at runtime via the `server_url` field in the
+[config file](#configuration).
 
 ## Roadmap
 

@@ -1,0 +1,396 @@
+[
+  {
+    "CodeName": "Seaport",
+    "LastUpdated": "2026-05-17T20:23:45.875Z",
+    "MapId": "EWorldConquestMapId::HowlCountyHex",
+    "NormalizedMapCoords": {
+      "x": 0.6992188692092896,
+      "y": 0.4008045494556427
+    },
+    "RecentMapItemDetails": {
+      "AltDetailValue": 0,
+      "DetailValue": 0,
+      "Flags": 128,
+      "RefineryEntries": [],
+      "ReserveStockpileInfoList": [
+        {
+          "StockpileInfo": {
+            "ItemCrates": [
+              {
+                "CodeName": "Cloth",
+                "Quantity": 2
+              },
+              {
+                "CodeName": "MetalBeamMaterials",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "BarbedWireMaterials",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "HEGrenade",
+                "Quantity": 2
+              },
+              {
+                "CodeName": "EngineerUniformW",
+                "Quantity": 1
+              },
+              {
+                "CodeName": "SandbagMaterials",
+                "Quantity": 1
+              }
+            ],
+            "Items": [],
+            "StructureCrates": [],
+            "Structures": [],
+            "VehicleCrates": [],
+            "Vehicles": []
+          },
+          "StockpileName": "Nik-Test"
+        },
+        {
+          "StockpileInfo": {
+            "ItemCrates": [
+              {
+                "CodeName": "Cloth",
+                "Quantity": 1
+              }
+            ],
+            "Items": [],
+            "StructureCrates": [],
+            "Structures": [],
+            "VehicleCrates": [],
+            "Vehicles": []
+          },
+          "StockpileName": "Test 2"
+        }
+      ],
+      "StockpileInfo": {
+        "ItemCrates": [
+          {
+            "CodeName": "Radio",
+            "Quantity": 1
+          },
+          {
+            "CodeName": "RifleAmmo",
+            "Quantity": 4
+          },
+          {
+            "CodeName": "RifleW",
+            "Quantity": 5
+          },
+          {
+            "CodeName": "Bandages",
+            "Quantity": 4
+          },
+          {
+            "CodeName": "SniperRifleW",
+            "Quantity": 18
+          },
+          {
+            "CodeName": "SoldierSupplies",
+            "Quantity": 6
+          }
+        ],
+        "Items": [],
+        "StructureCrates": [],
+        "Structures": [],
+        "VehicleCrates": [],
+        "Vehicles": [
+          {
+            "CodeName": "TruckW",
+            "Quantity": 20
+          },
+          {
+            "CodeName": "Crane",
+            "Quantity": 27
+          },
+          {
+            "CodeName": "Construction",
+            "Quantity": 27
+          },
+          {
+            "CodeName": "ScoutTankW",
+            "Quantity": 1
+          },
+          {
+            "CodeName": "GunboatC",
+            "Quantity": 1
+          },
+          {
+            "CodeName": "ArmoredCarW",
+            "Quantity": 1
+          }
+        ]
+      },
+      "Values": ""
+    },
+    "RenderState": "EPinnedMapWidgetRenderState::Expanded"
+  },
+  {
+    "CodeName": "FacilityVehicleFactory1",
+    "LastUpdated": "2026-05-17T21:32:03.570Z",
+    "MapId": "EWorldConquestMapId::SpeakingWoodsHex",
+    "NormalizedMapCoords": {
+      "x": 0.5258226990699768,
+      "y": 0.41077739000320435
+    },
+    "RecentMapItemDetails": {
+      "AltDetailValue": 0,
+      "DetailValue": 53,
+      "Flags": 128,
+      "RefineryEntries": [],
+      "ReserveStockpileInfoList": [],
+      "StockpileInfo": {
+        "ItemCrates": [],
+        "Items": [
+          {
+            "CodeName": "FacilityMaterials1",
+            "Quantity": 1640
+          },
+          {
+            "CodeName": "Cloth",
+            "Quantity": 100
+          },
+          {
+            "CodeName": "FacilityMaterials4",
+            "Quantity": 101
+          },
+          {
+            "CodeName": "FacilityMaterials5",
+            "Quantity": 105
+          }
+        ],
+        "StructureCrates": [],
+        "Structures": [],
+        "VehicleCrates": [],
+        "Vehicles": []
+      },
+      "Values": ""
+    },
+    "RenderState": "EPinnedMapWidgetRenderState::Expanded"
+  },
+  {
+    "CodeName": "Seaport",
+    "LastUpdated": "2026-05-15T21:32:09.720Z",
+    "MapId": "EWorldConquestMapId::ClansheadValleyHex",
+    "NormalizedMapCoords": {
+      "x": 0.49332332611083984,
+      "y": 0.3858549892902374
+    },
+    "RecentMapItemDetails": {
+      "AltDetailValue": 0,
+      "DetailValue": 0,
+      "Flags": 4,
+      "RefineryEntries": [],
+      "ReserveStockpileInfoList": [],
+      "StockpileInfo": {
+        "ItemCrates": [],
+        "Items": [],
+        "StructureCrates": [],
+        "Structures": [],
+        "VehicleCrates": [],
+        "Vehicles": []
+      },
+      "Values": ""
+    },
+    "RenderState": "EPinnedMapWidgetRenderState::IconOnly"
+  },
+  {
+    "CodeName": "Refinery",
+    "LastUpdated": "2026-05-17T21:43:09.770Z",
+    "MapId": "EWorldConquestMapId::HowlCountyHex",
+    "NormalizedMapCoords": {
+      "x": 0.7107487916946411,
+      "y": 0.30437546968460083
+    },
+    "RecentMapItemDetails": {
+      "AltDetailValue": 0,
+      "DetailValue": 0,
+      "Flags": 128,
+      "RefineryEntries": [
+        {
+          "Duration": 0,
+          "Index": 0,
+          "Refined": 730,
+          "Source": 0
+        }
+      ],
+      "ReserveStockpileInfoList": [],
+      "StockpileInfo": {
+        "ItemCrates": [],
+        "Items": [
+          {
+            "CodeName": "GroundMaterials",
+            "Quantity": 379
+          },
+          {
+            "CodeName": "Coal",
+            "Quantity": 1
+          },
+          {
+            "CodeName": "Explosive",
+            "Quantity": 300
+          },
+          {
+            "CodeName": "Diesel",
+            "Quantity": 760
+          },
+          {
+            "CodeName": "Wood",
+            "Quantity": 1071
+          },
+          {
+            "CodeName": "HeavyExplosive",
+            "Quantity": 13
+          },
+          {
+            "CodeName": "Components",
+            "Quantity": 300
+          }
+        ],
+        "StructureCrates": [],
+        "Structures": [],
+        "VehicleCrates": [],
+        "Vehicles": []
+      },
+      "Values": ""
+    },
+    "RenderState": "EPinnedMapWidgetRenderState::Expanded"
+  },
+  {
+    "CodeName": "GarrisonStation",
+    "LastUpdated": "2026-05-17T21:14:07.626Z",
+    "MapId": "EWorldConquestMapId::BasinSionnachHex",
+    "NormalizedMapCoords": {
+      "x": 0.5636962056159973,
+      "y": 0.3426147401332855
+    },
+    "RecentMapItemDetails": {
+      "AltDetailValue": 0,
+      "DetailValue": 0,
+      "Flags": 128,
+      "RefineryEntries": [],
+      "ReserveStockpileInfoList": [],
+      "StockpileInfo": {
+        "ItemCrates": [],
+        "Items": [
+          {
+            "CodeName": "MetalBeamMaterials",
+            "Quantity": 10
+          },
+          {
+            "CodeName": "ATRifleW",
+            "Quantity": 4
+          },
+          {
+            "CodeName": "WorkHammer",
+            "Quantity": 1
+          },
+          {
+            "CodeName": "MGTW",
+            "Quantity": 2
+          },
+          {
+            "CodeName": "MGAmmo",
+            "Quantity": 14
+          },
+          {
+            "CodeName": "RadioBackpack",
+            "Quantity": 4
+          },
+          {
+            "CodeName": "Binoculars",
+            "Quantity": 3
+          },
+          {
+            "CodeName": "Radio",
+            "Quantity": 2
+          },
+          {
+            "CodeName": "AircraftTorpedoAmmo",
+            "Quantity": 1
+          },
+          {
+            "CodeName": "LightAAAmmo",
+            "Quantity": 75
+          },
+          {
+            "CodeName": "RadioAircraft",
+            "Quantity": 4
+          },
+          {
+            "CodeName": "ATRPGAmmo",
+            "Quantity": 39
+          },
+          {
+            "CodeName": "HEGrenade",
+            "Quantity": 1
+          },
+          {
+            "CodeName": "ATRifleAmmo",
+            "Quantity": 1
+          },
+          {
+            "CodeName": "ArmourUniformW",
+            "Quantity": 1
+          },
+          {
+            "CodeName": "SledgeHammer",
+            "Quantity": 4
+          },
+          {
+            "CodeName": "RpgW",
+            "Quantity": 1
+          },
+          {
+            "CodeName": "SoldierUniformW",
+            "Quantity": 1
+          }
+        ],
+        "StructureCrates": [],
+        "Structures": [],
+        "VehicleCrates": [],
+        "Vehicles": []
+      },
+      "Values": "6464646464"
+    },
+    "RenderState": "EPinnedMapWidgetRenderState::IconOnly"
+  },
+  {
+    "CodeName": "ScrapMine",
+    "LastUpdated": "2026-05-17T21:31:49.397Z",
+    "MapId": "EWorldConquestMapId::HowlCountyHex",
+    "NormalizedMapCoords": {
+      "x": 0.7746946811676025,
+      "y": 0.31774452328681946
+    },
+    "RecentMapItemDetails": {
+      "AltDetailValue": 0,
+      "DetailValue": 5000,
+      "Flags": 128,
+      "RefineryEntries": [],
+      "ReserveStockpileInfoList": [],
+      "StockpileInfo": {
+        "ItemCrates": [],
+        "Items": [
+          {
+            "CodeName": "Petrol",
+            "Quantity": 0
+          },
+          {
+            "CodeName": "Diesel",
+            "Quantity": 333
+          }
+        ],
+        "StructureCrates": [],
+        "Structures": [],
+        "VehicleCrates": [],
+        "Vehicles": []
+      },
+      "Values": ""
+    },
+    "RenderState": "EPinnedMapWidgetRenderState::IconOnly"
+  }
+]

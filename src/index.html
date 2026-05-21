@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foxlogi Stockpiler</title>
+    <script type="module" src="/main.js" defer></script>
+  </head>
+
+  <body>
+    <main class="app">
+      <header class="header">
+        <h1 class="title">
+          <img class="logo" src="logo.png" alt="" />
+          Foxlogi Stockpiler
+        </h1>
+        <p class="subtitle">
+          Watches your Foxhole <code>.sav</code> files and syncs stockpile data
+          to the server.
+        </p>
+      </header>
+
+      <section class="card">
+        <label class="label" for="api-key">API key</label>
+        <div class="row">
+          <input
+            id="api-key"
+            type="password"
+            placeholder="Paste your API key…"
+            autocomplete="off"
+            spellcheck="false"
+          />
+          <button id="toggle-key" type="button" class="ghost" title="Show / hide">
+            👁
+          </button>
+        </div>
+         <p class="hint">
+          You can generate API key on Foxlogi <span class="mono">Settings</span> page.
+        </p>
+        <p id="key-status" class="status" aria-live="polite"></p>
+      </section>
+
+      <section class="card">
+        <div class="row spread">
+          <label class="label">Watched files</label>
+          <button id="add-files" type="button" class="primary">Add files…</button>
+        </div>
+        <ul id="file-list" class="file-list">
+          <li class="empty">No files watched yet. Click “Add files…”.</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <label class="label">Activity</label>
+        <ul id="log" class="log">
+          <li class="empty">Sync activity will appear here.</li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
